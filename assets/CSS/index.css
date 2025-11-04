@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section */
+#header-section {
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+}
+header {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 6px 70px rgba(30, 40, 52, 0.08);
+}
+#nav-ul {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  justify-content: space-around;
+}
+#nav-ul li button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+
+/* hero section */
+#hero-section h1 {
+  font-size: 60px;
+  font-weight: 900;
+  width: 700px;
+  /* color: #f00; */
+  line-height: 1.4;
+  background-clip: text;
+  background: linear-gradient(97.1deg, #c41740 4.8%, #ea9c28 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#hero-section {
+  justify-items: center;
+  text-align: center;
+}
+#hero-section p {
+  font-size: 18px;
+}
+.meet {
+  border: none;
+  background-color: rgb(220, 228, 236);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+/* blog section */
+#blogs-section {
+  background-color: rgb(245, 241, 241);
+  padding: 25px 0;
+}
+.view-all {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.blogs-container {
+  width: 65%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-direction: column;
+}
+.blog{
+  padding: 20px;
+  width: 94%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}.blog-texts{
+  width: 70%;
+}
+.blog-texts h2{
+  margin-top: 12px;
+}
+.blog-texts p{
+  margin-top: 15px;
+  color: grey;
+}
+.blog-image{
+  width: 28%;
+}
+.blog-texts span{
+  color: grey;
+  font-size: 13px;
+}
+/* footer */
+.footer h2{
+  padding-top: 60px;
+  color: red;
+  background: (97.1deg, #C41740 4.8%, #EA9C28 100%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  background-clip: text;
+  font-size: 30px;
+  text-align: center;
+}
+.footer p{
+  padding-top: 9px;
+  text-align: center;
+}
+.footer, .button-footer{
+  padding-top: 28px;
+  justify-items: center;
+}
+.button-footer{
+  height: 58px;
+}
+.hr-div{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 14px;
+}
